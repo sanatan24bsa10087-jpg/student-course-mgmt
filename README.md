@@ -20,11 +20,10 @@ Lightweight Java-based web application to manage users, courses, enrollments, at
 - JUnit 5 + Mockito (unit tests)
 
 ## Quick Setup (development, H2 demo)
-1. Clone the repository:
-```
+Clone the repository:
 git clone https://github.com/sanatan24bsa10087-jpg/student-course-mgmt.git
 cd student-course-mgmt
-```
+
 
 ## DB Configuration
 - For demo use H2 (default config in `application.yml`).
@@ -32,23 +31,24 @@ cd student-course-mgmt
 
 ## Tests
 Run unit tests using Maven:
-```
+
+
 mvn test
-```
+
 
 ## Project Structure (important)
-```
+
+
 src/main/java/com/student/scm
-  ├─ Application.java
-  ├─ config/
-  ├─ controller/
-  ├─ service/
-  ├─ repository/
-  ├─ model/
-  └─ dto/
-```
+├─ Application.java
+├─ config/
+├─ controller/
+├─ service/
+├─ repository/
+├─ model/
+└─ dto/
+
 
 ## Notes
 - Passwords are hashed using BCrypt.
 - Use `application.yml` to switch between H2 and MySQL.
-
