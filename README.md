@@ -32,13 +32,7 @@ cd student-course-mgmt
 ## Tests
 Run unit tests using Maven:
 
-
-mvn test
-
-
 ## Project Structure (important)
-
-
 src/main/java/com/student/scm
 ├─ Application.java
 ├─ config/
@@ -48,6 +42,10 @@ src/main/java/com/student/scm
 ├─ model/
 └─ dto/
 
+
+## Notes
+- Passwords are hashed using BCrypt.
+- Use `application.yml` to switch between H2 and MySQL.
 
 ## Notes
 - Passwords are hashed using BCrypt.
