@@ -21,10 +21,10 @@ Lightweight Java-based web application to manage users, courses, enrollments, at
 
 ## Quick Setup (development, H2 demo)
 1. Clone the repository:
-   ```bash
+   '''
    git clone https://github.com/sanatan24bsa10087-jpg/student-course-mgmt.git
    cd student-course-mgmt
-
+   '''
 DB Configuration
 
 For demo use H2 (default config in application.yml).
@@ -34,9 +34,11 @@ To use MySQL, update spring.datasource.* in application.yml with your MySQL cred
 Tests
 
 Run unit tests using Maven:
-
+'''
 mvn test
+'''
 
+'''
 Project Structure (important)
 src/main/java/com/student/scm
   ├─ Application.java
@@ -46,7 +48,7 @@ src/main/java/com/student/scm
   ├─ repository/
   ├─ model/
   └─ dto/
-
+'''
 Notes
 
 Passwords are hashed using BCrypt.
